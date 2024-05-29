@@ -17,7 +17,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "./dist/index.js",
+  "main": "./dist/index.jsx",
   "files": [
     "./src/**/*",
     "./dist/**/*"
@@ -35,12 +35,14 @@
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",
+    "@types/react": "^18.3.3",
     "concurrently": "^8.2.2",
     "cross-env": "^7.0.3",
     "eslint": "^9.3.0",
     "husky": "^9.0.11",
     "jest": "30.0.0-alpha.4",
     "prettier": "^3.2.5",
+    "react": "^18.3.1",
     "rimraf": "^5.0.7",
     "svag-husky": "^0.1.43",
     "svag-jest": "^0.1.36",
@@ -51,5 +53,12 @@
     "tsc-alias": "^1.8.10",
     "typescript": "^5.4.5"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "svag-ssr": "^0.1.2",
+    "svag-storik": "^0.1.4"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1"
+  }
 }
