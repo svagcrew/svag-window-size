@@ -17,7 +17,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "./dist/index.jsx",
+  "main": "./dist/index.js",
   "files": [
     "./src/**/*",
     "./dist/**/*"
@@ -44,19 +44,18 @@
     "prettier": "^3.2.5",
     "react": "^18.3.1",
     "rimraf": "^5.0.7",
-    "svag-husky": "^0.1.43",
-    "svag-jest": "^0.1.36",
-    "svag-lint": "^0.1.66",
-    "svag-prettier": "^0.1.57",
-    "svag-ts": "^0.1.62",
+    "svag-husky": "^0.1.47",
+    "svag-jest": "^0.1.38",
+    "svag-lint": "^0.1.70",
+    "svag-prettier": "^0.1.61",
+    "svag-ts": "^0.1.66",
     "ts-jest": "^29.1.4",
-    "tsc-alias": "^1.8.10",
     "typescript": "^5.4.5"
   },
   "type": "module",
   "dependencies": {
-    "svag-ssr": "^0.1.2",
-    "svag-storik": "^0.1.4"
+    "svag-ssr": "^0.1.4",
+    "svag-storik": "^0.1.5"
   },
   "peerDependencies": {
     "react": "^18.3.1"
