@@ -125,5 +125,6 @@ export const createWindowSizeThings = <TWindowSizeName extends string = DefaultS
     WindowSizeWatcher,
     useWindowSize,
     useValueByWindowSize,
+    windowSizes: sizes,
   }
 }
