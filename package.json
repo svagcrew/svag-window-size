@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "svag-ssr": "^0.1.5",
-    "svag-storik": "^0.1.6"
+    "svag-storik": "^0.1.7"
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",
@@ -51,11 +51,11 @@
     "prettier": "^3.2.5",
     "react": "^18.3.1",
     "rimraf": "^5.0.7",
-    "svag-husky": "^0.1.49",
+    "svag-husky": "^0.1.53",
     "svag-jest": "^0.1.39",
-    "svag-lint": "^0.1.72",
-    "svag-prettier": "^0.1.63",
-    "svag-ts": "^0.1.68",
+    "svag-lint": "^0.1.75",
+    "svag-prettier": "^0.1.66",
+    "svag-ts": "^0.1.71",
     "ts-jest": "^29.1.4",
     "tsc-alias": "^1.8.10",
     "typescript": "^5.4.5"
